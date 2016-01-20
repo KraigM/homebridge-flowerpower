@@ -1,0 +1,29 @@
+{
+  "name": "homebridge-flowerpower",
+  "description": "Parrot Flower Power plugin for HomeBridge",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kraigm/homebridge-flowerpower.git"
+  },
+  "license": "ISC",
+  "preferGlobal": true,
+  "keywords": [
+    "homebridge-plugin",
+    "parrot",
+    "flower",
+    "power"
+  ],
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.5"
+  },
+  "dependencies": {
+    "async": "^1.5.1",
+    "debug": "^2.2.0",
+    "flower-power": ">=0.3.0",
+    "flower-power-api": "^1.4.0",
+    "node-flower-bridge": "^1.7.2",
+    "promise": "^7.0.4"
+  }
+}
